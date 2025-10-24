@@ -1,0 +1,68 @@
+[
+  {
+    "id": 1,
+    "title": "Camisa negra para varon",
+    "image": "imagenes/inicio1.png",
+    "description": "4 colores",
+    "price": "precio: s/65.00"
+  },
+
+  {
+    "id": 2,
+    "title": "Blusa negra para mujer",
+    "image": "imagenes/inicio2.png",
+    "description": "4 colores",
+    "tendencia": "En tendencia ⭐",
+    "price": "precio: s/65.00"
+  },
+
+  {
+    "id": 3,
+    "title": "Polos blancos Triple Trifolio",
+    "image": "imagenes/ropa.png",
+    "description": "3 colores",
+    "price": "precio: s/46.00"
+  },
+
+  {
+    "id": 4,
+    "title": "Camisa casual para mujer",
+    "image": "imagenes/inicio3.png",
+    "description": "10 colores",
+    "tendencia": "En tendencia ⭐",
+    "price": "precio: s/50.00"
+  },
+
+  {
+    "id": 5,
+    "title": "Camisa jean para niño",
+    "image": "imagenes/inicio4.png",
+    "description": "Único color",
+    "price": "precio: s/85.00"
+  },
+
+  {
+    "id": 6,
+    "title": "Zapatillas para mujer",
+    "image": "imagenes/inicio5.png",
+    "description": "2 colores",
+    "price": "precio: s/120.00"
+  },
+
+  {
+    "id": 7,
+    "title": "Zapatillas para mujer",
+    "image": "imagenes/inicio6.png",
+    "description": "3 colores",
+    "tendencia": "En tendencia ⭐",
+    "price": "precio: s/110.00"
+  },
+
+  {
+    "id": 8,
+    "title": "Zapatillas para hombre",
+    "image": "imagenes/inicio7.png",
+    "description": "2 colores",
+    "price": "precio: s/135.00"
+  }
+]
