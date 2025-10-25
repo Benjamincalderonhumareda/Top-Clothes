@@ -62,7 +62,7 @@
       "items": [
         {
           "id": 1,
-          "title": "Reloj Clásico Dina",
+          "title": "Reloj Rolex Dina",
           "price": "S/ 79.90",
           "image": "imagenes3/reloj1.jpeg"
         },
@@ -147,4 +147,5 @@
       ]
     }
   ]
+
 }
