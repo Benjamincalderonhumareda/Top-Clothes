@@ -2,7 +2,7 @@
   "categories": [
     {
       "id": "hombre",
-      "title": "ROPA PARA HOMBRE",
+      "title": "CALZADO PARA HOMBRE",
       "items": [
         {
           "id": 1,
@@ -50,7 +50,7 @@
     },
     {
       "id": "mujer",
-      "title": "ROPA PARA MUJER",
+      "title": "CALZADO PARA MUJER",
       "items": [
         {
           "id": 1,
@@ -98,7 +98,7 @@
     },
     {
       "id": "ninos",
-      "title": "ROPA PARA NIÑOS",
+      "title": "CALZADO PARA NIÑOS",
       "items": [
         {
           "id": 1,
@@ -146,3 +146,4 @@
     }
   ]
 }
+
