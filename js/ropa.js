@@ -69,7 +69,7 @@ function App() {
     <div className="min-h-screen bg-white">
       <div className="container mx-auto py-8">
         <h1 className="text-4xl font-bold text-center text-gray-900 mb-10">
-          AGREGAR TEXTO, NOSE
+          LA MEJOR ROPA VIENE DE TOP CLOTHES
         </h1>
 
         {categories.map((cat, index) => (
@@ -81,4 +81,5 @@ function App() {
 }
 
 const root = ReactDOM.createRoot(document.getElementById("ropa"));
+
 root.render(<App />);
