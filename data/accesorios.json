@@ -1,0 +1,144 @@
+{
+  "categories": [
+    {
+      "id": "billeteras",
+      "title": "Billeteras",
+      "items": [
+        {
+          "id": 1,
+          "title": "Billetera Grande Tech",
+          "price": "S/ 20.00",
+          "priceold" :"Antes: s/54.00",
+          "image": "imagenes3/billetera1.png"
+        },
+        {
+          "id": 2,
+          "title": "Billetera Grande Vision",
+          "price": "S/ 59.00",
+          "image": "imagenes3/billetera2.png"
+        },
+        {
+          "id": 3,
+          "title": "Billetera Grande Simbol",
+          "price": "S/ 59.30",
+          "image": "imagenes3/billetera3.png"
+        },
+        {
+          "id": 4,
+          "title": "Billetera Mediano Catt",
+          "price": "S/ 22.45",
+          "image": "imagenes3/billetera4.jpeg",
+          "priceold":"Antes: S/ 49.90"
+        }
+      ]
+    },
+    {
+      "id": "bufandas",
+      "title": "Bufandas",
+      "items": [
+        {
+          "id": 1,
+          "title": "Bufanda Clásica Beige",
+          "price": "S/ 35.00",
+          "image": "imagenes3/bufanda1.jpeg"
+        },
+        {
+          "id": 2,
+          "title": "Bufanda Rayas Negras",
+          "price": "S/ 42.00",
+          "image": "imagenes3/bufanda2.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "Bufanda Invierno Azul",
+          "price": "S/ 39.90",
+          "image": "imagenes3/bufanda3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "relojes",
+      "title": "Relojes",
+      "items": [
+        {
+          "id": 1,
+          "title": "Reloj Clásico Negro",
+          "price": "S/ 79.90",
+          "image": "imagenes3/reloj1.jpeg"
+        },
+        {
+          "id": 2,
+          "title": "Reloj Moderno Blanco",
+          "price": "S/ 85.00",
+          "image": "imagenes3/reloj2.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "Reloj Deportivo Azul",
+          "price": "S/ 99.00",
+          "image": "imagenes3/reloj3.jpeg"
+        },
+        {
+          "id": 4,
+          "title": "Reloj Vintage Cuero",
+          "price": "S/ 120.00",
+          "image": "imagenes3/reloj4.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "morales",
+      "title": "Morales",
+      "items": [
+        {
+          "id": 1,
+          "title": "Morral Urbano Negro",
+          "price": "S/ 65.00",
+          "image": "imagenes3/morral1.jpeg"
+        },
+        {
+         "id": 2,
+          "title": "Morral1 Casual Marrón",
+          "price": "S/ 72.00",
+          "image": "imagenes3/morral2.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "Morral Deportivo Azul",
+          "price": "S/ 69.90",
+          "image": "imagenes3/morral3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "carteras",
+      "title": "Carteras",
+      "items": [
+        {
+          "id": 1,
+          "title": "Cartera Fashion Rosa",
+          "price": "S/ 120.00",
+          "image": "imagenes3/cartera1.jpeg"
+        },
+        {
+          "id": 2,
+          "title": "Cartera Elegante Negra",
+          "price": "S/ 135.00",
+          "image": "imagenes3/cartera2.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "Cartera Casual Beige",
+          "price": "S/ 110.00",
+          "image": "imagenes3/cartera3.jpeg"
+        },
+        {
+          "id": 4,
+          "title": "Cartera Moderna Blanca",
+          "price": "S/ 140.00",
+          "image": "imagenes3/cartera4.jpeg"
+        }
+      ]
+    }
+  ]
+}
