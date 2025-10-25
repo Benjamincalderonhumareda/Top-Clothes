@@ -1,6 +1,5 @@
 const ACCESORIOS_URL = "data/accesorios.json";
 
-/* --- Card product --- */
 function AccesorioCard({ item }) {
   return (
     <div className="bg-[#D9D9D9] rounded-md p-3 hover:shadow-lg transition-transform duration-200 hover:scale-105">
@@ -11,7 +10,7 @@ function AccesorioCard({ item }) {
       <div className="mt-3 text-xs text-gray-700" style={{ fontFamily: "Abel, sans-serif" }}>
         <div className="mb-1">
           <span className="text-base text-gray-900 font-semibold block">{item.price}</span>
-          {item.priceold && <span className="text-sm text-gray-500 line-through">Antes: {item.priceold}</span>}
+          {item.priceold && <span className="text-sm text-gray-500 line-through"> {item.priceold}</span>}
         </div>
 
         <h3 className="text-sm text-gray-900 font-medium mb-1">{item.title}</h3>
@@ -36,7 +35,7 @@ function Sidebar({ categories, selected, onSelect }) {
           <button
             key={c.id}
             onClick={() => onSelect(c.id)}
-            className={`flex justify-between items-center w-full text-left px-2 py-2 rounded-md text-sm mb-2 transition ${selected === c.id ? "bg-black text-white" : "hover:bg-gray-200"}`}
+            className={`flex justify-between items-center w-full text-left px-2 py-2 rounded-md text-sm mb-2 transition ${selected === c.id ? "bg-[#D9D9D9] text-black" : "hover:bg-gray-200"}`}
           >
             <span className="capitalize">{c.title}</span>
             <span className="ml-2 text-xs bg-gray-200 text-gray-700 px-2 py-0.5 rounded-full">
@@ -57,7 +56,7 @@ function MobilePills({ categories, selected, onSelect }) {
           <button
             key={c.id}
             onClick={() => onSelect(c.id)}
-            className={`px-3 py-1 rounded-full whitespace-nowrap text-sm border ${selected === c.id ? "bg-black text-white border-black" : "bg-white text-gray-800 border-gray-200"}`}
+            className={`px-3 py-1 rounded-full whitespace-nowrap text-sm border ${selected === c.id ? " text-white border-black" : "bg-white text-gray-800 border-gray-200"}`}
           >
             {c.title}
           </button>
@@ -69,25 +68,22 @@ function MobilePills({ categories, selected, onSelect }) {
 
 function InfoPanel({ category, onViewAll }) {
   const defaultBullets = {
-    carteras: ["Clutch/Sobre", "Hobo", "De viaje", "Bowling", "Baguette"],
-    billeteras: ["Cuero", "Slim", "Con monedero", "Con RFID"],
-    morrales: ["Urbano", "De viaje", "Antirrobo", "Casual"],
-    relojes: ["Analógico", "Digital", "Resistente al agua", "Correa ajustable"],
-    bufandas: ["Lana", "Seda", "Pashmina", "Invierno"]
+     Carteras: ["Clutch/Sobre", "Hobo", "De viaje", "Bowling", "Baguette"],
+     Billeteras: ["Cuero de grano completo", "Tejidos sinteticos", "Estetico", "Diseño modernista","Algodon organico"],
+     Morrales: ["Impermeables", "Artesanales", "Cuero completo", "Elegante", "Deportivo"],
+     Relojes: ["Analógico", "Digital", "Resistente al agua", "Correa ajustable"],
+     Bufandas: ["Clasicas", "Seda", "Algodon", "Pashmina", "Flexible","Franela"],
   };
 
   if (!category) {
     return (
       <aside className="w-full md:w-64">
         <div className="p-4 bg-[#3F3833] text-white rounded">
-          <h4 className="font-semibold mb-2" style={{ fontFamily: "Karma, serif" }}>Información</h4>
-          <p className="text-sm">Selecciona una categoría para ver más detalles.</p>
         </div>
       </aside>
     );
   }
 
-  // si el JSON incluye category.bullets (array de strings), úsalo
   const bulletsFromJson = Array.isArray(category.bullets) ? category.bullets : null;
   const bullets = bulletsFromJson || defaultBullets[category.id] || [
     "Material de calidad",
@@ -123,17 +119,7 @@ function InfoPanel({ category, onViewAll }) {
           ))}
         </ul>
 
-        <div className="flex gap-2">
-          <button
-            onClick={() => { if (typeof onViewAll === "function") onViewAll(); }}
-            className="flex-1 bg-white text-[#3F3833] py-2 rounded font-semibold hover:opacity-90 transition"
-          >
-            Ver todos
-          </button>
-          <a href="#" className="px-3 py-2 border border-white rounded text-sm hover:bg-white hover:text-[#3F3833]" onClick={(e) => e.preventDefault()}>
-            Contacto
-          </a>
-        </div>
+      
       </div>
     </aside>
   );

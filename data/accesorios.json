@@ -1,7 +1,7 @@
 {
   "categories": [
     {
-      "id": "billeteras",
+      "id": "Billeteras",
       "title": "Billeteras",
       "items": [
         {
@@ -33,7 +33,7 @@
       ]
     },
     {
-      "id": "bufandas",
+      "id": "Bufandas",
       "title": "Bufandas",
       "items": [
         {
@@ -57,18 +57,18 @@
       ]
     },
     {
-      "id": "relojes",
+      "id": "Relojes",
       "title": "Relojes",
       "items": [
         {
           "id": 1,
-          "title": "Reloj Clásico Negro",
+          "title": "Reloj Clásico Dina",
           "price": "S/ 79.90",
           "image": "imagenes3/reloj1.jpeg"
         },
         {
           "id": 2,
-          "title": "Reloj Moderno Blanco",
+          "title": "Reloj Moderno Negro",
           "price": "S/ 85.00",
           "image": "imagenes3/reloj2.jpeg"
         },
@@ -83,12 +83,18 @@
           "title": "Reloj Vintage Cuero",
           "price": "S/ 120.00",
           "image": "imagenes3/reloj4.jpeg"
+        },
+        {
+          "id": 5,
+          "title": "Reloj Patek Phillipe Nautilus",
+          "price": "S/ 650.00",
+          "image": "imagenes3/reloj5.jpeg"
         }
       ]
     },
     {
-      "id": "morales",
-      "title": "Morales",
+      "id": "Morrales",
+      "title": "Morrales",
       "items": [
         {
           "id": 1,
@@ -111,7 +117,7 @@
       ]
     },
     {
-      "id": "carteras",
+      "id": "Carteras",
       "title": "Carteras",
       "items": [
         {
