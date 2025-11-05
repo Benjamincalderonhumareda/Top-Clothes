@@ -1,0 +1,150 @@
+{
+  "categories": [
+    {
+      "id": "Billeteras",
+      "title": "Billeteras",
+      "items": [
+        {
+          "id": 1,
+          "title": "Billetera Grande Tech",
+          "price": "S/ 20.00",
+          "priceold" :"Antes: s/54.00",
+          "image": "imagenes/accesorios/billetera1.png"
+        },
+        {
+          "id": 2,
+          "title": "Billetera Grande Vision",
+          "price": "S/ 59.00",
+          "image": "imagenes/accesorios/billetera2.png"
+        },
+        {
+          "id": 3,
+          "title": "Billetera Grande Simbol",
+          "price": "S/ 59.30",
+          "image": "imagenes/accesorios/billetera3.png"
+        },
+        {
+          "id": 4,
+          "title": "Billetera Mediano Catt",
+          "price": "S/ 22.45",
+          "image": "imagenes/accesorios/billetera4.jpeg",
+          "priceold":"Antes: S/ 49.90"
+        }
+      ]
+    },
+    {
+      "id": "Bufandas",
+      "title": "Bufandas",
+      "items": [
+        {
+          "id": 1,
+          "title": "Bufanda Clásica Beige",
+          "price": "S/ 35.00",
+          "image": "imagenes/accesorios/bufanda1.jpeg"
+        },
+        {
+          "id": 2,
+          "title": "Bufanda Rayas Negras",
+          "price": "S/ 42.00",
+          "image": "imagenes/accesorios/bufanda2.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "Bufanda Invierno Azul",
+          "price": "S/ 39.90",
+          "image": "imagenes/accesorios/bufanda3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "Relojes",
+      "title": "Relojes",
+      "items": [
+        {
+          "id": 1,
+          "title": "Reloj Clásico Dina",
+          "price": "S/ 79.90",
+          "image": "imagenes/accesorios/reloj1.jpeg"
+        },
+        {
+          "id": 2,
+          "title": "Reloj Moderno Negro",
+          "price": "S/ 85.00",
+          "image": "imagenes/accesorios/reloj2.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "Reloj Deportivo Azul",
+          "price": "S/ 99.00",
+          "image": "imagenes/accesorios/reloj3.jpeg"
+        },
+        {
+          "id": 4,
+          "title": "Reloj Vintage Cuero",
+          "price": "S/ 120.00",
+          "image": "imagenes/accesorios/reloj4.jpeg"
+        },
+        {
+          "id": 5,
+          "title": "Reloj Patek Phillipe Nautilus",
+          "price": "S/ 650.00",
+          "image": "imagenes/accesorios/reloj5.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "Morrales",
+      "title": "Morrales",
+      "items": [
+        {
+          "id": 1,
+          "title": "Morral Urbano Negro",
+          "price": "S/ 65.00",
+          "image": "imagenes/accesorios/morral1.jpeg"
+        },
+        {
+         "id": 2,
+          "title": "Morral1 Casual Marrón",
+          "price": "S/ 72.00",
+          "image": "imagenes/accesorios/morral2.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "Morral Deportivo Azul",
+          "price": "S/ 69.90",
+          "image": "imagenes/accesorios/morral3.jpeg"
+        }
+      ]
+    },
+    {
+      "id": "Carteras",
+      "title": "Carteras",
+      "items": [
+        {
+          "id": 1,
+          "title": "Cartera Fashion Rosa",
+          "price": "S/ 120.00",
+          "image": "imagenes/accesorios/cartera1.jpeg"
+        },
+        {
+          "id": 2,
+          "title": "Cartera Elegante Negra",
+          "price": "S/ 135.00",
+          "image": "imagenes/accesorios/cartera2.jpeg"
+        },
+        {
+          "id": 3,
+          "title": "Cartera Casual Beige",
+          "price": "S/ 110.00",
+          "image": "imagenes/accesorios/cartera3.jpeg"
+        },
+        {
+          "id": 4,
+          "title": "Cartera Moderna Blanca",
+          "price": "S/ 140.00",
+          "image": "imagenes/accesorios/cartera4.jpeg"
+        }
+      ]
+    }
+  ]
+}
