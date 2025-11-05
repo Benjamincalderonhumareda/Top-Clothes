@@ -10,7 +10,6 @@ function ClothesCard({ clothe }) {
           className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-300"
           style={{ zIndex: 1 }}
         />
-        {/* Overlay solo aparece en hover */}
         <div
           className="absolute inset-0 bg-black opacity-0 group-hover:opacity-20 transition-opacity duration-300"
           style={{ zIndex: 2 }}
@@ -73,7 +72,7 @@ function App() {
     fetch(CLOTHES_URL)
       .then((res) => res.json())
       .then((data) => {
-        setClothes(data); // Simplificado
+        setClothes(data); 
       })
       .catch((error) => {
         console.error("Error fetching movies:", error);

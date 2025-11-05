@@ -7,7 +7,7 @@
         {
           "id": 1,
           "title": "Polera con capucha",
-          "image": "imagenes/ropa1.png",
+          "image": "../imagenes/ropa/hombre1.png",
           "price": "S/ 99.00",
           "sizes": "XS | S | M | L",
           "colors": "Negro | Azul | Plomo"
@@ -15,7 +15,7 @@
         {
           "id": 2,
           "title": "Short Essentials Suave",
-          "image": "imagenes/ropa2.png",
+          "image": "../imagenes/ropa/hombre2.png",
           "price": "S/ 69.00",
           "sizes": "S | M | L",
           "colors": "Marrón | Verde | Negro"
@@ -24,7 +24,7 @@
         {
           "id": 3,
           "title": "Polo Oversite x Fornite",
-          "image": "imagenes/ropa3.png",
+          "image": "../imagenes/ropa/hombre3.png",
           "price": "S/ 80.00",
           "sizes": " XS | S | M | L",
           "colors": "Plomo | Verde   "
@@ -33,7 +33,7 @@
         {
           "id": 4,
           "title": "Polo Manga Larga ",
-          "image": "imagenes/ropa4.png",
+          "image": "../imagenes/ropa/hombre4.png",
           "price": "S/ 89.00",
           "sizes": "XS | S | M | L",
           "colors": "Negro | Azul | Plomo"
@@ -42,7 +42,7 @@
         {
           "id": 5,
           "title": "Polo Básico de Lana ",
-          "image": "imagenes/ropa5.png",
+          "image": "../imagenes/ropa/hombre5.png",
           "price": "S/ 85.00",
           "sizes": "XS | S | M | L",
           "colors": "Negro | Morado | Blanco | Azul  "
@@ -51,7 +51,7 @@
         {
           "id": 6,
           "title": "Pantalon Utilitario",
-          "image": "imagenes/ropa6.png",
+          "image": "../imagenes/ropa/hombre6.png",
           "price": "S/ 89.00",
           "sizes": "28” | 30” | 36” ",
           "colors": "Negro | Azul | Plomo"
@@ -60,7 +60,7 @@
         {
           "id": 7,
           "title": "Buso Y-3 Mesh Classics",
-          "image": "imagenes/ropa7.png",
+          "image": "../imagenes/ropa/hombre7.png",
           "price": "S/ 110.00",
           "sizes": "28” | 32” | 38” | 40”",
           "colors": "Negro | Verde | Azul  "
@@ -77,7 +77,7 @@
         {
           "id": 1,
           "title": "Vestido denim con falda",
-          "image": "imagenes/mujer1.png",
+          "image": "../imagenes/ropa/mujer1.png",
           "price": "S/ 109.00",
           "sizes": "S | M | L",
           "colors": "Azul | Rojo"
@@ -86,7 +86,7 @@
          {
           "id": 2,
           "title": "Minifalda con volantes",
-          "image": "imagenes/mujer2.png",
+          "image": "../imagenes/ropa/mujer2.png",
           "price": "S/ 119.00",
           "sizes": "  S | M | L | XL",
           "colors": "   Blanco | Rosado | Verde"
@@ -95,7 +95,7 @@
          {
           "id": 3,
           "title": "Casaca Jean",
-          "image": "imagenes/mujer3.png",
+          "image": "../imagenes/ropa/mujer3.png",
           "price": "S/ 129.00",
           "sizes": "  S | M ",
           "colors": "Azul"
@@ -104,7 +104,7 @@
          {
           "id": 4,
           "title": "Casaca marrón claro",
-          "image": "imagenes/mujer4.png",
+          "image": "../imagenes/ropa/mujer4.png",
           "price": "S/ 89.00",
           "sizes": "S | M | L",
           "colors": "Marrón Claro | Oscuro"
@@ -113,7 +113,7 @@
          {
           "id": 5,
           "title": "Crop en popelina",
-          "image": "imagenes/mujer5.png",
+          "image": "../imagenes/ropa/mujer5.png",
           "price": "S/ 79.95",
           "sizes": "S | M | L",
           "colors": "Rojo vivo | Blanco"
@@ -122,7 +122,7 @@
          {
           "id": 6,
           "title": "Vestido camisero",
-          "image": "imagenes/mujer6.png",
+          "image": "../imagenes/ropa/mujer6.png",
           "price": "S/ 53.95",
           "sizes": " M | L | XL | XXL",
           "colors": "Negro | Crema"
@@ -131,7 +131,7 @@
         {
           "id": 7,
           "title": "Vestido acampanado",
-          "image": "imagenes/mujer7.png",
+          "image": "../imagenes/ropa/mujer7.png",
           "price": "S/ 102.00",
           "sizes": "XS | S | M | L",
           "colors": "Beige | Blanco"
@@ -148,7 +148,7 @@
         {
           "id": 1,
           "title": "Polo Clásico Verano",
-          "image": "imagenes/niño1.png",
+          "image": "../imagenes/ropa/niño1.png",
           "price": "S/ 85.00",
           "sizes": "12' | 14' | 16'",
           "colors": "Negro | Azul | Plomo"
@@ -157,7 +157,7 @@
          {
           "id": 2,
           "title": "Polo negro con estampado",
-          "image": "imagenes/niño2.png",
+          "image": "../imagenes/ropa/niño2.png",
           "price": "S/ 65.00",
           "sizes": "12' | 14' | 16'",
           "colors": "Marrón | Verde | Negro"
@@ -166,7 +166,7 @@
          {
           "id": 3,
           "title": "Jeans Semi-Pitillo",
-          "image": "imagenes/niño3.png",
+          "image": "../imagenes/ropa/niño3.png",
           "price": "S/ 54.00",
           "sizes": "12' | 14' | 16'",
           "colors": "Negro | Marrón | Blanco"
@@ -175,7 +175,7 @@
          {
           "id": 4,
           "title": "Vestido overol ",
-          "image": "imagenes/niño4.png",
+          "image": "../imagenes/ropa/niño4.png",
           "price": "S/ 85.00",
           "sizes": "XS | S | M ",
           "colors": "Rojo | Azul"
@@ -184,7 +184,7 @@
          {
           "id": 5,
           "title": "Pantalón con correa",
-          "image": "imagenes/niño5.png",
+          "image": "../imagenes/ropa/niño5.png",
           "price": "S/ 70.00",
           "sizes": "XS | S | M | L",
           "colors": "Azul | Negro | Celeste"
@@ -193,7 +193,7 @@
          {
           "id": 6,
           "title": "Conjunto de top y short",
-          "image": "imagenes/niño6.png",
+          "image": "../imagenes/ropa/niño6.png",
           "price": "S/ 84.59",
           "sizes": "10” | 12” | 14” ",
           "colors": "Único conjunto"
@@ -202,7 +202,7 @@
         {
           "id": 7,
           "title": "Chompa Tejida Puntillo ",
-          "image": "imagenes/niño7.png",
+          "image": "../imagenes/ropa/niño7.png",
           "price": "S/ 119.90",
           "sizes": "XS | S | M  ",
           "colors": "Rojo | Rosado    "

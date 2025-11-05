@@ -56,7 +56,7 @@ function MobilePills({ categories, selected, onSelect }) {
           <button
             key={c.id}
             onClick={() => onSelect(c.id)}
-            className={`px-3 py-1 rounded-full whitespace-nowrap text-sm border ${selected === c.id ? " text-white border-black" : "bg-white text-gray-800 border-gray-200"}`}
+            className={`px-3 py-1 rounded-full whitespace-nowrap text-sm border ${selected === c.id ? " text-black border-black" : "bg-[#CECECE] text-gray-800 border-gray-200"}`}
           >
             {c.title}
           </button>
@@ -78,7 +78,7 @@ function InfoPanel({ category, onViewAll }) {
   if (!category) {
     return (
       <aside className="w-full md:w-64">
-        <div className="p-4 bg-[#3F3833] text-white rounded">
+        <div className="p-4 bg-[#3F3833] text-black rounded">
         </div>
       </aside>
     );
@@ -125,7 +125,6 @@ function InfoPanel({ category, onViewAll }) {
   );
 }
 
-/* --- App principal --- */
 function AccesoriosApp() {
   const [categories, setCategories] = React.useState([]);
   const [selected, setSelected] = React.useState(null);
@@ -194,10 +193,7 @@ function AccesoriosApp() {
   );
 }
 
-/* --- mount --- */
-if (!document.getElementById("accesorios")) {
-  console.error("No se encontró el div#accesorios en el HTML. Agrega: <div id=\"accesorios\"></div>");
-} else {
+
   const root = ReactDOM.createRoot(document.getElementById("accesorios"));
   root.render(<AccesoriosApp />);
-}
+
